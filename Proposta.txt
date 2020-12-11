@@ -1,0 +1,63 @@
+ATIVIDADE DA PROPOSTA:  
+
+ 
+
+minha proposta é um programa que mostra os projetos de um engenheiro e mostra para todos da empresa, com foi feito passo a passo... 
+
+ 
+
+ 
+
+#include <iostream> 
+
+using namespace std; 
+
+ 
+
+ 
+
+int main(){ 
+
+    int pj1; 
+
+     
+
+     
+
+    cout << " digite 1 para aparecer o primeiro projeto: \n digite 2 para aparecer o segundo projeto: \n digite 3 para aparecer o terceiro projeto: \n "; 
+
+    cin >> pj1; 
+
+     
+
+    switch(pj1){ 
+
+        case 1: cout << "PROJETO 1 \n Tema: Construção de uma Casa: \n Etapa 1: Contrate um profissional qualificado; \n Etapa 2: Desenvolvimento do projeto; \n Etapa 3: Preparação do terreno;\n Etapa 4: Construção da fundação e alicerce; \n Etapa 5: Construção da alvenaria; \n Etapa 6: Construção do telhado; \n Etapa 7: Instalação da parte elétrica e hidráulica; \n Etapa 8: Finalmente os acabamentos."; 
+
+        break; 
+
+        case 2: cout << "PROJETO 2 \n Tema: Construção de uma Piscina: \n Etapa 1: Defina o local, formato e profundidade; \n Etapa 2: Analise as características do solo; \n Etapa 3: Faça a fundação e a estrutura; \n Etapa 4: Impermeabilize a piscina de alvenaria; \n Etapa 5: Inclua o revestimento."; 
+
+        break; 
+
+        case 3: cout << "PROJETO 3 \n Tema: Construção de um Posto de Gasolina \n Etapa 1: Comece pela escolha da bandeira; \n Etapa 2: Escolha uma boa localização; \n Etapa 3: Planeje a estrutura do posto; \n Etapa 4: Calcule o investimento; \n Etapa 5: Reserve recursos para o capital de giro."; 
+
+        break; 
+
+        default: cout << "Código de projeto inválido."; 
+
+    } 
+
+      
+
+ 
+
+ 
+
+     
+
+    
+
+} 
+
+ 
